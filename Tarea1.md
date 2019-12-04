@@ -21,12 +21,11 @@ Elaboración a partir de datos del POMCA río Alto Lebrija, 2018
 ##  Herramientas
 
 - QGIS
-- QgisCloud
+- Qgis2Web
 
 ##  Proceso Realizado
 
-- Se creó cuenta gratuita en QgisCloud https://qgiscloud.com/
-- En QGIS se instaló del plugin de qgiscloud
+- En QGIS se instaló del plugin de qgis2Web
 ![img1](Imagenes/Clasificacion.png)
 
 - Se realizo la reaclasificacion segun el tipo de uso del suelo.
@@ -34,13 +33,15 @@ Elaboración a partir de datos del POMCA río Alto Lebrija, 2018
 -Se inicio sesion en QGIS Cloud
 ![img2](Imagenes/VisualizacionCapas.png)
 
-- Luego se realiza el cargue de datos en la base de datos y se realiza la publicación
+- Luego nos dirigimos a la barra herramientas en la opcion web elegimos QGIS2Web se revsan o se agregan los parametros que se dessen y se da clic en exportar 
 
-![img3](Imagenes/CargaDatos.png)
+![img3](Imagenes/exportar.png)
+- Y asi podemos visualizar el WMS creado en QGISCLOUD
+![img4](Imagenes/wms.png)
 
 ##  Urls
 
-- Mapa Web https://qgiscloud.com/heilyr/Mapa_tematico_class_nube/?bl=&st=&l=CUENCA%2CusoActualsuelo_copy%2CCURVAS%20NIVEL&t=Mapa_tematico_class_nube&e=-0.00016%2C-0.00008%2C0.00016%2C0.00008
+- Mapa Web file:///C:/Users/yulit/AppData/Local/Temp/qgis2web/qgis2web_2019_12_03-21_31_13_181186/index.html
 
-
+- WMS https://qgiscloud.com/heilyr/Mapa_tematico_class_nube/wms?SERVICE=WMS&REQUEST=GetCapabilities
 
