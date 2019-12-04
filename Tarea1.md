@@ -1,8 +1,6 @@
 # Tarea 1
 
-## Título
-
-Mapa Clasificación del uso del suelo
+## Mapa Clasificación del uso del suelo
 
 ## Descripción
 
