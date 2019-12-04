@@ -29,4 +29,13 @@ Elaboración a partir de datos del POMCA río Alto Lebrija, 2018
 
 - Se creó cuenta gratuita en QgisCloud https://qgiscloud.com/
 - En QGIS se instaló del plugin de qgiscloud
-![img1](imagenes/Clasificacion.png)
+![img1](Imagenes/Clasificacion.png)
+
+- Se realizo la reaclasificacion segun el tipo de uso del suelo.
+- Luego se realizo una edición de la simbologia
+-Se inicio sesion en QGIS Cloud
+![img2](Imagenes/VisualizacionCapas.png)
+
+- Luego se realiza el cargue de datos en la base de datos y se realiza la publicación
+
+![img3](Imagenes/CargaDatos.png)
