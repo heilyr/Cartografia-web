@@ -29,4 +29,4 @@ Elaboración a partir de datos del POMCA río Alto Lebrija, 2018
 
 - Se creó cuenta gratuita en QgisCloud https://qgiscloud.com/
 - En QGIS se instaló del plugin de qgiscloud
-![img1](imagenes/00_qgiscloud.png)
+![img1](imagenes/Clasificacion.png)
