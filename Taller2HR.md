@@ -11,12 +11,12 @@ Capas de Ejercito Nacional de cartografía básica y Áreas de Reglamentación E
 
 ## Descripción
 -Primero se visualiza las capas a utilizar y sus atributos
-
-![img10] (Imagenes / 4.png)
+![img5](Imagenes/4.png)
 
 --Luego se configura la  simbologia a utilizar, en este caso se da clic en la opcion de propiedades y realizamos la clasificacion de la capa
-
--Luego  se realiza la conexión a la base de datos  de posgres 
+![img5](Imagenes/1.1.png)
+-Luego  se realiza la conexión a la base de datos  de posgres y se realiza la importacion de las capas
+![img7](Imagenes/ConexionBD.png)
 
 -Luego vamos a realizar las consultas en la el SQL que son las que se publicaran finalmente 
  se quiere saber en que departamentos hay resguardos indigenas
@@ -45,12 +45,19 @@ and d.departamen = 'GUAVIARE') a,
 adminsige.ri b
 where a.rinombre = b.rinombre
 
+![img8](Imagenes/3.png)
 -Luego de tener las consultas, vamos a visualizar las capas creadas
+![img9](Imagenes/5.png)
+![img10](Imagenes/6.png)
 
 -Luego vamos a ir a Geoserver y realizamos la carga de la capa, como la creacion de la capa se hizo directamente en la base de datos lo que vamos a realizar es la busqueda de ella. Para ello vamos a Cargar capa, buscamos la capa en la conexion postgis.
+![img12](Imagenes/publicaciongeo.png)
 -Luego se subir las capas, vamos a la opcion de crear una agrupacion de capas donde  vamos a cargar las capas subidas y se configura el extent de las capas
-
+![img11](Imagenes/grupocapas.png)
 -Luego vamos a previsualizar los datos
 
-Luego de ello vamos a realiza el cambio u asignacion de estilos iniciando por el SLD , desde QGIS se puede  hacer la configuracion cuando se estaba realizando la clasificacion se da clic en guardar estilo  SLD, luego en el geoserver se da clic en crear un nuevo estilo, cargamos el archivo creado y podemos visualizar la leyenda y el archivo en html.
+Luego de ello vamos a realiza el cambio u asignacion de estilos iniciando por el SLD , desde QGIS se puede  hacer la configuracion cuando se estaba realizando la clasificacion se da clic en guardar estilo  SLD, luego en el geoserver se da clic en crear un nuevo estilo, cargamos el archivo creado y podemos visualizar la leyenda y el archivo en html.![img13](Imagenes/prev.png)
+
+![img14](Imagenes/EstiloSLD.png)
+![img15](Imagenes/estiloSLD1.png)
 
