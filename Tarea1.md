@@ -41,7 +41,8 @@ Elaboración a partir de datos del POMCA río Alto Lebrija, 2018
 
 ##  Urls
 
-- Mapa Web file:///C:/Users/yulit/AppData/Local/Temp/qgis2web/qgis2web_2019_12_03-21_31_13_181186/index.html
+- Mapa Web file:///C:/Users/yulit/Documents/Cartografia%20web/Tarea%201/qgis2web_2019_12_03-21_31_13_181186/index.html
+https://github.com/heilyr/Cartografia-web/blob/master/Tarea%201/qgis2web_2019_12_03-21_31_13_181186/index.html
 
 - WMS https://qgiscloud.com/heilyr/Mapa_tematico_class_nube/wms?SERVICE=WMS&REQUEST=GetCapabilities
 
