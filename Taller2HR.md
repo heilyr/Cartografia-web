@@ -9,22 +9,15 @@ Resguardos_Indigenas
 SDO_Deptos
 Capas de Ejercito Nacional de cartografía básica y Áreas de Reglamentación Especial por convenio IGAC
 
-## Descripción del procesamiento realizado con postgis (Incluir los sqls)
-Primero se visualizan los  las capas a utilizar y sus atributos 
-
-## Descripción de la forma en que creó la simbología (incluir los sld's y css)
-## Nombres de las tablas creadas en postgis
-## Nombres de las capas y estilos publicadas en geoserver.
-## Url de la previsualización del grupo de capas en Geoserver
-## Pantallazos con la forma en que los usuarios pueden consultar su geoservicio a través de QGIS
-Primero se visualiza las capas a utilizar y sus atributos
+## Descripción
+-Primero se visualiza las capas a utilizar y sus atributos
 ![img10] (Imagenes / 4.png)
 
-Luego se configura la  simbologia a utilizar, en este caso se da clic en la opcion de propiedades y realizamos la clasificacion de la capa
+--Luego se configura la  simbologia a utilizar, en este caso se da clic en la opcion de propiedades y realizamos la clasificacion de la capa
 
-Luego  se realiza la conexión a la base de datos  de posgres 
+-Luego  se realiza la conexión a la base de datos  de posgres 
 
-Luego vamos a realizar las consultas en la el SQL que son las que se publicaran finalmente 
+-Luego vamos a realizar las consultas en la el SQL que son las que se publicaran finalmente 
  se quiere saber en que departamentos hay resguardos indigenas
  create table tarea_heily as
 
@@ -51,14 +44,12 @@ and d.departamen = 'GUAVIARE') a,
 adminsige.ri b
 where a.rinombre = b.rinombre
 
+-Luego de tener las consultas, vamos a visualizar las capas creadas
 
-Luego de tener las consultas, vamos a visualizar las capas creadas
+-Luego vamos a ir a Geoserver y realizamos la carga de la capa, como la creacion de la capa se hizo directamente en la base de datos lo que vamos a realizar es la busqueda de ella. Para ello vamos a Cargar capa, buscamos la capa en la conexion postgis.
+-Luego se subir las capas, vamos a la opcion de crear una agrupacion de capas donde  vamos a cargar las capas subidas y se configura el extent de las capas
 
-Lueo vamos a ir a Geoserver y realizamos la carga de la capa, como la creacion de la capa se hizo directamente en la base de datos lo que vamos a realizar es la busqueda de ella. Para ello vamos a Cargar capa, buscamos la capa en la conexion postgis.
-
-Luego se subir las capas, vamos a la opcion de crear una agrupacion de capas donde  vamos a cargar las capas subidas y se configura el extent de las capas
-
-Luego vamos a previsualizar los datos
+-Luego vamos a previsualizar los datos
 
 Luego de ello vamos a realiza el cambio u asignacion de estilos iniciando por el SLD , desde QGIS se puede  hacer la configuracion cuando se estaba realizando la clasificacion se da clic en guardar estilo  SLD, luego en el geoserver se da clic en crear un nuevo estilo, cargamos el archivo creado y podemos visualizar la leyenda y el archivo en html.
 
