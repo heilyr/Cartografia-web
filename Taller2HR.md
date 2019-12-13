@@ -66,3 +66,13 @@ Luego de ello vamos a realiza el cambio u asignacion de estilos iniciando por el
 ![img15](Imagenes/estiloSLD1.PNG)
 
 las dificultades presentadas es que al principio realice la conexion por oracle y fue complicado por cuestiones de persmisos y bloqueos, ademas en oracle hay que crear la geometria para que se pueda visualizar. La inserción de las imágenes ha sido complicada. Se me dificulto realizar el estilo CSS
+
+##URL
+http://34.83.176.208:18080/geoserver/clase/wms?service=WMS&version=1.1.0&request=GetMap&layers=clas
+e%3AHR_1&bbox=-73.8378219604492%2C0.783906877040863%2C-67.8613815307617%2C3.69193458557129&width=768&height=373&srs=EPSG%3A4326&format=application/openlayers
+
+http://34.83.176.208:18080/geoserver/clase/wms?service=WMS&version=1.1.0&request=GetMap&layers=clase%3AHR_2&bbox=-79.0077819824219%2C-4.22788381576538%2C-66.8472137451172%2C12.4573411941528&width=559&height=768&srs=EPSG%3A4326&format=application/openlayers
+
+
+
+
