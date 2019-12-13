@@ -11,6 +11,7 @@ Capas de Ejercito Nacional de cartografía básica y Áreas de Reglamentación E
 
 ## Descripción
 -Primero se visualiza las capas a utilizar y sus atributos
+
 ![img10] (Imagenes / 4.png)
 
 --Luego se configura la  simbologia a utilizar, en este caso se da clic en la opcion de propiedades y realizamos la clasificacion de la capa
