@@ -65,6 +65,10 @@ Luego de ello vamos a realiza el cambio u asignacion de estilos iniciando por el
 
 ![img15](Imagenes/estiloSLD1.PNG)
 
+-Se genera el estilo seleccionando la pestaña “Estilos” y luego “Nuevo Estilo” y se ingresan el nombre y parámetros deseados, esta vez se selecciona CSS en Formato:
+![img20](Imagenes/css.PNG)
+![img21](Imagenes/error.png)
+
 las dificultades presentadas es que al principio realice la conexion por oracle y fue complicado por cuestiones de persmisos y bloqueos, ademas en oracle hay que crear la geometria para que se pueda visualizar. La inserción de las imágenes ha sido complicada. Se me dificulto realizar el estilo CSS
 
 ##URL
