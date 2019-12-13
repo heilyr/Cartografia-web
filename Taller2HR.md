@@ -13,10 +13,11 @@ Capas de Ejercito Nacional de cartografía básica y Áreas de Reglamentación E
 -Primero se visualiza las capas a utilizar y sus atributos
 ![img5](Imagenes/4.png)
 
---Luego se configura la  simbologia a utilizar, en este caso se da clic en la opcion de propiedades y realizamos la clasificacion de la capa
-![img6](Imagenes/1.1.PNG)
+-Luego se configura la  simbologia a utilizar, en este caso se da clic en la opcion de propiedades y realizamos la clasificacion de la capa
+![img18](Imagenes/1.1.PNG)
+
 -Luego  se realiza la conexión a la base de datos  de posgres y se realiza la importacion de las capas
-![img7](Imagenes/ConexionBD.png)
+![img7](Imagenes/ConexionBD.PNG)
 
 -Luego vamos a realizar las consultas en la el SQL que son las que se publicaran finalmente 
  se quiere saber en que departamentos hay resguardos indigenas
@@ -64,3 +65,4 @@ Luego de ello vamos a realiza el cambio u asignacion de estilos iniciando por el
 
 ![img15](Imagenes/estiloSLD1.PNG)
 
+las dificultades presentadas es que al principio realice la conexion por oracle y fue complicado por cuestiones de persmisos y bloqueos, ademas en oracle hay que crear la geometria para que se pueda visualizar. La inserción de las imágenes ha sido complicada. Se me dificulto realizar el estilo CSS
